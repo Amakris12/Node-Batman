@@ -71,10 +71,30 @@
   }
 
   #Wonder-banner {
-    background-image: url(https://c4.wallpaperflare.com/wallpaper/404/762/522/batman-v-superman-dawn-of-justice-dc-comics-ben-affleck-wallpaper-preview.jpg);
+    background-image: url(https://www.ixpap.com/images/2021/06/batman-wallpaper-ixpap-1.jpg);
   }
 
   #Flash-banner {
     background-image: url(https://www.themarysue.com/wp-content/uploads/2018/12/Aquaman-featured.jpg);
+  }
+}
+.video-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  iframe {
+    width: 50rem;
+    height: 25rem;
+    border-radius: 0.75rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .video-container {
+    iframe {
+      width: 25rem;
+      height: 15rem;
+    }
   }
 }

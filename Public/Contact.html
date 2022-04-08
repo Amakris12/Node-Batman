@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Styles/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Contact</title>
+</head>
+<body>
+    <div class="background-fader"></div>
+    <nav>
+        <header>
+            <i class="fa fa-bars fa-2x nav-toggle" aria-hidden="true"></i>
+            <span id="nav-brand">The Batman</span>
+        </header>
+        <div class="side-navbar">
+            <i class="fa fa-times fa-2x nav-toggle" aria-hidden="true"></i>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/Characters">Characters</a></li>
+                <li><a href="/Contact">Contact</a></li>
+                <li><a href="/Gallery">Gallery</a></li>
+                <li><a href="/">Expense Tracker</a></li>
+            </ul>
+        </div>
+    </nav>
+    <h1 class="section-header">Contact <br> The Batman</h1>
+    <div class="contact-wrapper">
+        <!-- Left contact page -->
+        <form id="contact-form" class="form-horizontal" role="form">
+            <div class="form-group">
+                <div class="col-sm-12">
+                    <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-12">
+                    <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
+                </div>
+            </div>
+            <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
+            <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+                <div class="alt-send-button">
+                    <span class="send-text">SEND</span>
+                </div>
+            </button>
+        </form>
+        <!-- Left contact page -->
+        <div class="direct-contact-container">
+            <ul class="contact-list">
+                <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">Gotham City, Gotham</span></i></li>
+    
+                <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a
+                                href="tel:1-212-555-5555" title="Give me a call">Use bat Signal</a></span></i></li>
+    
+                <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#"
+                                title="Send me an email">ImBatman@gmail.com</a></span></i></li>
+    
+            </ul>
+            <hr>
+            <ul class="social-media-list">
+                <li><a href="#" target="_blank" class="contact-icon">
+                        <i class="fa fa-github" aria-hidden="true"></i></a>
+                </li>
+                <li><a href="#" target="_blank" class="contact-icon">
+                        <i class="fa fa-codepen" aria-hidden="true"></i></a>
+                </li>
+                <li><a href="#" target="_blank" class="contact-icon">
+                        <i class="fa fa-twitter" aria-hidden="true"></i></a>
+                </li>
+                <li><a href="#" target="_blank" class="contact-icon">
+                        <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                </li>
+            </ul>
+            <hr>
+            <div class="copyright">&copy; ALL OF THE RIGHTS RESERVED</div>
+        </div>
+    </div>
+    <div class="Footer">
+        <div class="flex">
+            <ul>
+                <li>
+                    <h4>Contact</h4>
+                </li>
+                <a href="">
+                    <li>(623)-806-9966</li>
+                </a>
+                <a href="">
+                    <li>amakris03@gmail.com</li>
+                </a>
+                <a href="">
+                    <li>Github</li>
+                </a>
+                <a href="">
+                    <li>Netlify</li>
+                </a>
+            </ul>
+            <ul>
+                <li>
+                    <h4>Navigation</h4>
+                </li>
+                <a href="">
+                    <li>Home</li>
+                </a>
+                <a href="">
+                    <li>About</li>
+                </a>
+                <a href="">
+                    <li>Contact</li>
+                </a>
+                <a href="">
+                    <li>Gallery</li>
+                </a>
+                <a href="">
+                    <li>Expense Tracker</li>
+                </a>
+            </ul>
+            <ul>
+                <li>
+                    <h4>Social Media</h4>
+                </li>
+                <a href="">
+                    <li>Twitter</li>
+                </a>
+                <a href="">
+                    <li>Instagram</li>
+                </a>
+                <a href="">
+                    <li>Tiktok</li>
+                </a>
+                <a href="">
+                    <li>LinkedIn</li>
+                </a>
+            </ul>
+            <div>
+                <h3>About The Page</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga odit ipsam tempora? Officiis sapiente quod
+                    esse est at numquam, voluptas repellendus atque unde id corporis ipsa dolore alias possimus libero!
+                    Dignissimos praesentium deleniti eius? Ratione maxime dicta eaque voluptas aliquid!</p>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    document.querySelector('#contact-form').addEventListener('submit', (e) => {
+        e.preventDefault();
+        e.target.elements.name.value = '';
+        e.target.elements.email.value = '';
+        e.target.elements.message.value = '';
+    });
+</script>
+<script src="./Javascript/navbar.js"></script>
+
+</html>
