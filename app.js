@@ -3,9 +3,7 @@ const app = express()
 const router = express.router;
 const path = require('path');
 
-// app.get('/', (req, res) => {
-//     res.sendFile(path.resolve(__dirname, './Public/index.html'))
-// })
+
 
 app.use(express.static("./public"))
 
