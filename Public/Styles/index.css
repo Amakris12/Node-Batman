@@ -225,16 +225,16 @@ a {
     height: 100%;
   }
 }
-.banner-container:hover .banner {
+.banner-container:active .banner {
   opacity: 0.5;
 }
-.banner-container:hover .banner:hover {
+.banner-container:active .banner:hover {
   box-shadow: 0px 0px 10px 6px black;
   flex: 4 1;
   font-size: 20pt;
   opacity: 1;
 }
-.banner-container:hover .banner:hover .banner-name {
+.banner-container:active .banner:hover .banner-name {
   flex: 0 0 60px;
 }
 .banner-container .banner {
@@ -266,21 +266,42 @@ a {
   background-image: url(https://cdn.wallpapersafari.com/35/39/HsNfqV.jpg);
 }
 .banner-container #Wonder-banner {
-  background-image: url(https://www.ixpap.com/images/2021/06/batman-wallpaper-ixpap-1.jpg);
+  background-image: url(https://a.ltrbxd.com/resized/sm/upload/xs/v0/mz/sd/batman-under-red-hood-1200-1200-675-675-crop-000000.jpg?k=bd80fd8422);
 }
 .banner-container #Flash-banner {
   background-image: url(https://www.themarysue.com/wp-content/uploads/2018/12/Aquaman-featured.jpg);
 }
 
-.flex .Videos {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+.accordian-container {
+  width: 40%;
+  margin-bottom: 5rem;
+  margin-left: 3rem;
 }
-.flex .Videos iframe {
-  width: 40rem;
-  height: 15rem;
-  margin-top: 1rem;
+.accordian-container h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+}
+.accordian-container button {
+  color: rgb(59, 108, 255) !important;
+}
+.accordian-container .accordion {
+  background-color: black;
+}
+.accordian-container .accordion .accordion-item {
+  margin-top: 0.5rem;
+  background-color: black;
+}
+.accordian-container .accordion .accordion-item .accordion-button {
+  background-color: black;
+}
+
+.accordian-img img {
+  width: 35rem;
+  height: 40rem;
+  border-radius: 0.75rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  margin-bottom: 2rem;
 }
 
 #contact {
@@ -729,7 +750,7 @@ nav header i {
   color: white;
   text-align: center;
   width: 90%;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 
 @media screen and (max-width: 900px) {
