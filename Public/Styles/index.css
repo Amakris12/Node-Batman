@@ -568,6 +568,7 @@ textarea {
 .container-card {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .page-content-cards {
@@ -583,6 +584,227 @@ textarea {
   font-size: 3rem;
   color: white;
   margin-top: 2rem;
+}
+
+.rouges-header {
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+}
+
+.container-Rouges {
+  margin-bottom: 5rem;
+  margin-top: 2rem;
+  padding: 20px;
+  width: 80%;
+  height: 50rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container-Rouges hr {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container-Rouges img {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.container-Rouges h3 {
+  text-align: center;
+  margin-top: 0.3rem;
+  color: white;
+  font-size: 2rem;
+}
+.container-Rouges p {
+  text-align: center;
+  color: white;
+  font-size: 1.3rem;
+}
+
+.Characters h2 {
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+}
+.Characters hr {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Characters .char-Bats {
+  width: 100%;
+}
+.Characters .char-Bats img {
+  width: 100%;
+  height: 30rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: -1rem;
+}
+.Characters h2 {
+  margin-top: 2rem;
+}
+.Characters .char-side {
+  border-top: rgb(0, 106, 255) solid 2px;
+  border-bottom: rgb(0, 106, 255) solid 2px;
+  margin-top: 2rem;
+  background-color: rgb(17, 17, 17) !important;
+}
+.Characters .char-Robins {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+  padding: 20px;
+  height: 100%;
+}
+.Characters .char-Robins .char-dic {
+  height: 30rem;
+  width: 18rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 10px;
+}
+.Characters .char-Robins .char-dic img {
+  height: 25rem;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.Characters .char-Robins .char-dic img:hover {
+  height: 27rem;
+  width: 85%;
+  border: rgb(34, 126, 255) 2px solid;
+}
+.Characters .char-Robins .char-dic h2 {
+  text-align: center;
+  color: rgb(53, 127, 255);
+  font-size: 1.5rem;
+}
+.Characters .char-Robins .char-todd {
+  height: 30rem;
+  width: 18rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 10px;
+}
+.Characters .char-Robins .char-todd img {
+  width: 80%;
+  height: 25rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.Characters .char-Robins .char-todd img:hover {
+  height: 27rem;
+  width: 85%;
+  border: rgb(255, 0, 0) 2px solid;
+}
+.Characters .char-Robins .char-todd h2 {
+  text-align: center;
+  color: rgb(255, 0, 0);
+  font-size: 1.5rem;
+}
+.Characters .char-Robins .char-tim {
+  height: 30rem;
+  width: 18rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 10px;
+}
+.Characters .char-Robins .char-tim img {
+  width: 80%;
+  height: 25rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.Characters .char-Robins .char-tim img:hover {
+  height: 27rem;
+  width: 85%;
+  border: rgb(251, 255, 0) 2px solid;
+}
+.Characters .char-Robins .char-tim h2 {
+  text-align: center;
+  color: rgb(251, 255, 0);
+  font-size: 1.5rem;
+}
+.Characters .char-Robins .char-dam {
+  height: 30rem;
+  width: 18rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 10px;
+}
+.Characters .char-Robins .char-dam img {
+  width: 80%;
+  height: 25rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.Characters .char-Robins .char-dam img:hover {
+  height: 27rem;
+  width: 85%;
+  border: rgb(155, 0, 0) 2px solid;
+}
+.Characters .char-Robins .char-dam h2 {
+  text-align: center;
+  color: rgb(155, 0, 0);
+  font-size: 1.5rem;
+}
+.Characters .char-Robins .char-barb {
+  height: 30rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 18rem;
+  padding: 10px;
+}
+.Characters .char-Robins .char-barb img {
+  width: 80%;
+  height: 25rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.Characters .char-Robins .char-barb img:hover {
+  height: 27rem;
+  width: 85%;
+  border: rgb(102, 0, 255) 2px solid;
+}
+.Characters .char-Robins .char-barb h2 {
+  text-align: center;
+  color: rgb(102, 0, 255);
+  font-size: 1.5rem;
+}
+.Characters .char-Vid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 100%;
+  padding: 20px;
+}
+.Characters .char-Vid h2 {
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+}
+.Characters .char-Vid hr {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Characters .char-Vid iframe {
+  width: 45rem;
+  height: 25rem;
+  border-radius: 0.75rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 nav {
@@ -1056,7 +1278,7 @@ h1 {
 
 .card {
   padding: 0 1.7rem;
-  width: 50%;
+  width: 25%;
 }
 .card .menu-content {
   margin: 0;
@@ -1094,6 +1316,8 @@ h1 {
 }
 .card .wrapper:hover .data {
   transform: translateY(0);
+  background-color: #000;
+  opacity: 0.9;
 }
 .card .data {
   position: absolute;
@@ -1125,9 +1349,6 @@ h1 {
 }
 
 .example-1 .wrapper {
-  background-color: black;
-  opacity: 0.8;
-  box-shadow: 0 0 0 0 black;
   background: url(https://images-na.ssl-images-amazon.com/images/I/A1Gb8vuZiCL.jpg) center/cover no-repeat;
 }
 .example-1 .wrapper:hover .menu-content span {
@@ -1193,9 +1414,6 @@ h1 {
 }
 
 .example-2 .wrapper {
-  background-color: black;
-  opacity: 0.8;
-  box-shadow: 0 0 0 0 black;
   background: url(https://images-na.ssl-images-amazon.com/images/I/71yDogdr+pL.jpg) center/cover no-repeat;
 }
 .example-2 .wrapper:hover .menu-content span {
@@ -1261,9 +1479,6 @@ h1 {
 }
 
 .example-3 .wrapper {
-  background-color: black;
-  opacity: 0.8;
-  box-shadow: 0 0 0 0 black;
   background: url(https://d1466nnw0ex81e.cloudfront.net/n_iv/600/892211.jpg) center/cover no-repeat;
 }
 .example-3 .wrapper:hover .menu-content span {
@@ -1329,9 +1544,6 @@ h1 {
 }
 
 .example-4 .wrapper {
-  background-color: black;
-  opacity: 0.8;
-  box-shadow: 0 0 0 0 black;
   background: url(https://images-na.ssl-images-amazon.com/images/I/91CLsiEAX8L.jpg) center/cover no-repeat;
 }
 .example-4 .wrapper:hover .menu-content span {

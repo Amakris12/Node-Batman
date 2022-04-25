@@ -39,7 +39,7 @@ h1 {
 // Base styles
 .card {
   padding: 0 1.7rem;
-  width: 50%;
+  width: 25%;
   .menu-content {
     @include cf;
     margin: 0;
@@ -70,6 +70,8 @@ h1 {
     &:hover {
       .data {
         transform: translateY(0);
+        background-color: $black;
+        opacity: 0.9;
       }
     }
   }
@@ -105,9 +107,6 @@ h1 {
 
 .example-1 {
   .wrapper {
-    background-color: black;
-    opacity: 0.8;
-    box-shadow: 0 0 0 0 black;
     background: url(https://images-na.ssl-images-amazon.com/images/I/A1Gb8vuZiCL.jpg)
       center / cover no-repeat;
     &:hover {
@@ -142,7 +141,7 @@ h1 {
   .data {
     color: $white;
     transform: translateY(calc(70px + 4em));
-
+    // background-color: rgba(0, 0, 0,.8);
   }
   .title {
     a {
@@ -179,9 +178,7 @@ h1 {
 
 .example-2 {
   .wrapper {
-    background-color: black;
-    opacity: 0.8;
-    box-shadow: 0 0 0 0 black;
+    
     background: url(https://images-na.ssl-images-amazon.com/images/I/71yDogdr+pL.jpg)
       center / cover no-repeat;
     &:hover {
@@ -216,6 +213,7 @@ h1 {
   .data {
     color: $white;
     transform: translateY(calc(70px + 4em));
+   
   }
   .title {
     a {
@@ -252,9 +250,7 @@ h1 {
 
 .example-3 {
   .wrapper {
-    background-color: black;
-    opacity: 0.8;
-    box-shadow: 0 0 0 0 black;
+   
     background: url(https://d1466nnw0ex81e.cloudfront.net/n_iv/600/892211.jpg)
       center / cover no-repeat;
     &:hover {
@@ -325,9 +321,6 @@ h1 {
 
 .example-4 {
   .wrapper {
-    background-color: black;
-    opacity: 0.8;
-    box-shadow: 0 0 0 0 black;
     background: url(https://images-na.ssl-images-amazon.com/images/I/91CLsiEAX8L.jpg)
       center / cover no-repeat;
     &:hover {
