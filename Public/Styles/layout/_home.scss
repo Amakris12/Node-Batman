@@ -19,7 +19,7 @@
     }
   }
 
-  &:active {
+  &:hover {
     .banner {
       opacity: 0.5;
 
@@ -112,4 +112,26 @@
       rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
     margin-bottom: 2rem;
   }
+}
+
+@media screen and (max-width:550px){
+  .accordian-img {
+    img {
+      width: 25rem;
+      height: 30rem;
+      border-radius: 0.75rem;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+        rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+      margin-bottom: 2rem;
+    }
+  }
+
+}
+
+iframe{
+  width:80%;
+  height:100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
