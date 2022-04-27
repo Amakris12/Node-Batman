@@ -19,43 +19,89 @@
   }
 }
 
-.rouges-header {
-  text-align: center;
-  font-size: 3rem;
-  color: white;
-}
-
-.container-Rouges {
-  margin-bottom: 5rem;
-  margin-top: 2rem;
-  padding: 20px;
-  width: 80%;
-  height: 50rem;
-  margin-left: auto;
-  margin-right: auto;
-  hr {
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto; 
-  }
-  img {
+.container-villians {
+  .container-joker {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    display: block;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    // border: rgb(255, 255, 255) 1px solid;
+    // border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+      rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+      padding: 20px;
+    img {
+      width: 80%;
+      height:30rem;
+      margin-left: auto;
+      margin-right: auto;
+      display: block; 
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+        rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        margin-top: 2rem;
+    }
+    h2 {
+      text-align: center;
+      color: white;
+      font-size: 2.5rem;
+    }
+    hr {
+      border-top: 1px solid rgb(0, 255, 0);
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    p {
+      text-align: center;
+      color: white;
+    }
   }
-  h3 {
-    text-align: center;
-    margin-top: 0.3rem;
-    color: white;
-    font-size: 2rem;
-  }
-  p {
-    text-align: center;
-    color: white;
-    font-size: 1.3rem;
+  .container-other-villians {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    .villian-card {
+      margin-top: 2rem;
+      width: 45%;
+      height: 44rem;
+      border-radius: 0.75rem;
+      // border: 1px solid rgb(54, 54, 255);
+      padding: 20px;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+        rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+      img {
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+          rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 80%;
+        height:65%;
+      }
+      h2 {
+        text-align: center;
+        color: white;
+        font-size: 2rem;
+        margin-top: 1rem;
+      }
+      hr {
+        border-top: 1px solid white;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+      }
+      p {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 85%;
+        color: white;
+      }
+    }
   }
 }

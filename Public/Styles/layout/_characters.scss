@@ -10,15 +10,28 @@
     }
     .char-Bats{
         width:100%;
+        margin-top: 1rem;
         img{
-            width: 100%;
+            width: 80%;
             height: 30rem;
             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
             margin-top:-1rem;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+        p{
+            text-align: center;
+            color: white;
+            width:70%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top:.5rem;
         }
     }
     h2{
-        margin-top:2rem;
+        margin-top:.5rem;
+        // margin-top:2rem;
     }
     .char-side{
         border-top: rgb(0, 106, 255) solid 2px;

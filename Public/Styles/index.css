@@ -565,6 +565,11 @@ textarea {
     width: 99%;
   }
 }
+.img-logo {
+  height: 10rem;
+  width: 10rem;
+}
+
 .container-card {
   display: flex;
   justify-content: space-evenly;
@@ -586,43 +591,81 @@ textarea {
   margin-top: 2rem;
 }
 
-.rouges-header {
-  text-align: center;
-  font-size: 3rem;
-  color: white;
-}
-
-.container-Rouges {
-  margin-bottom: 5rem;
-  margin-top: 2rem;
-  padding: 20px;
+.container-villians .container-joker {
   width: 80%;
-  height: 50rem;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  padding: 20px;
 }
-.container-Rouges hr {
+.container-villians .container-joker img {
+  width: 80%;
+  height: 30rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  margin-top: 2rem;
+}
+.container-villians .container-joker h2 {
+  text-align: center;
+  color: white;
+  font-size: 2.5rem;
+}
+.container-villians .container-joker hr {
+  border-top: 1px solid rgb(0, 255, 0);
   width: 50%;
   margin-left: auto;
   margin-right: auto;
 }
-.container-Rouges img {
-  width: 80%;
+.container-villians .container-joker p {
+  text-align: center;
+  color: white;
+}
+.container-villians .container-other-villians {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+}
+.container-villians .container-other-villians .villian-card {
+  margin-top: 2rem;
+  width: 45%;
+  height: 44rem;
+  border-radius: 0.75rem;
+  padding: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.container-villians .container-other-villians .villian-card img {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   margin-left: auto;
   margin-right: auto;
   display: block;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  width: 80%;
+  height: 65%;
 }
-.container-Rouges h3 {
+.container-villians .container-other-villians .villian-card h2 {
   text-align: center;
-  margin-top: 0.3rem;
   color: white;
   font-size: 2rem;
+  margin-top: 1rem;
 }
-.container-Rouges p {
+.container-villians .container-other-villians .villian-card hr {
+  border-top: 1px solid white;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+.container-villians .container-other-villians .villian-card p {
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
   color: white;
-  font-size: 1.3rem;
 }
 
 .Characters h2 {
@@ -637,15 +680,27 @@ textarea {
 }
 .Characters .char-Bats {
   width: 100%;
+  margin-top: 1rem;
 }
 .Characters .char-Bats img {
-  width: 100%;
+  width: 80%;
   height: 30rem;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   margin-top: -1rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.Characters .char-Bats p {
+  text-align: center;
+  color: white;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.5rem;
 }
 .Characters h2 {
-  margin-top: 2rem;
+  margin-top: 0.5rem;
 }
 .Characters .char-side {
   border-top: rgb(0, 106, 255) solid 2px;
@@ -1092,6 +1147,12 @@ nav header i {
   height: 600px;
   width: 100%;
   box-sizing: border-box;
+  border-top: rgb(38, 92, 255) solid 2px;
+  border-bottom: rgb(38, 92, 255) solid 2px;
+  background-color: black;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding: 20px;
 }
 #slideshow h1 {
   text-align: center;
@@ -1225,7 +1286,7 @@ nav header i {
 
 .shadow {
   position: absolute;
-  box-shadow: rgba(39, 39, 255, 0.626) 0px 13px 27px -5px, rgba(53, 86, 255, 0.3) 0px 8px 16px -8px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   border-radius: 1px;
 }
 
@@ -1325,6 +1386,7 @@ h1 {
   width: 100%;
   transform: translateY(calc(70px + 1em));
   transition: transform 0.3s;
+  margin-top: 4rem;
 }
 .card .data .content {
   padding: 1em;

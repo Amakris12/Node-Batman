@@ -4,6 +4,12 @@
   height: 600px;
   width: 100%;
   box-sizing: border-box;
+  border-top: rgb(38, 92, 255) solid 2px;
+  border-bottom: rgb(38, 92, 255) solid 2px;
+  background-color:black;
+  margin-top:3rem;
+  margin-bottom: 3rem;
+  padding: 20px;
   h1 {
     text-align: center;
     color: white;
@@ -118,8 +124,7 @@
 
 .shadow {
   position: absolute;
-  box-shadow: rgba(39, 39, 255, 0.626) 0px 13px 27px -5px,
-    rgba(53, 86, 255, 0.3) 0px 8px 16px -8px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   border-radius: 1px;
 }
 

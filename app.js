@@ -7,7 +7,7 @@ const navigation = require('./Routes/navigation')
 
 
 app.use(express.static("./Public"))
-// app.use('/',navigation)
+app.use('/',navigation)
 
 const newRouter= require('./Routes/navigation')
 app.use(newRouter)
