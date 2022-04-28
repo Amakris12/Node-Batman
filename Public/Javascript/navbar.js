@@ -29,6 +29,6 @@ sidebarLinks.forEach(link => {
   };
 });
 
-threeDotMenu.onclick = function() {
-  navMenu.classList.toggle('show-nav-menu');
-};
+// threeDotMenu.onclick = function() {
+//   navMenu.classList.toggle('show-nav-menu');
+// };

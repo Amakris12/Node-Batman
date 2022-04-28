@@ -132,7 +132,7 @@
   image-rendering: auto;
   transition: all 300ms;
   width: 100%;
-  height: 22rem;
+  height: 100%;
 }
 
 .content-carrousel img:hover {
@@ -146,5 +146,12 @@
   }
   to {
     transform: rotateY(360deg);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .content-carrousel figure{
+    height:30vh;
+    width: 100%;
   }
 }
