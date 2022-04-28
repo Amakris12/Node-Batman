@@ -1283,6 +1283,7 @@ nav header i {
   margin-top: 3rem;
   margin-bottom: 3rem;
   padding: 20px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 #slideshow h1 {
   text-align: center;
