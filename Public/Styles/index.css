@@ -649,6 +649,7 @@ textarea {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 2rem;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 .container-villians .container-other-villians .villian-card {
   margin-top: 2rem;
@@ -750,13 +751,14 @@ textarea {
   margin-top: 1rem;
 }
 .Characters h2 {
-  margin-top: 0.5rem;
+  margin-top: 1rem;
 }
 .Characters .char-side {
   border-top: rgb(0, 106, 255) solid 2px;
   border-bottom: rgb(0, 106, 255) solid 2px;
   margin-top: 2rem;
   background-color: rgb(17, 17, 17) !important;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 .Characters .char-Robins {
   width: 90%;

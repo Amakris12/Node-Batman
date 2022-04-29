@@ -31,10 +31,10 @@
     .char-bats-text {
       width: 50%;
       .links {
-          width: 90%;
-          margin-left: auto;
-          margin-right: auto;
-          margin-top: 2rem;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2rem;
         display: flex;
         justify-content: space-evenly;
         img {
@@ -67,14 +67,15 @@
       // margin-top:2rem;
     }
   }
-  h2{
-      margin-top: .5rem;
+  h2 {
+    margin-top: 1rem;
   }
   .char-side {
     border-top: rgb(0, 106, 255) solid 2px;
     border-bottom: rgb(0, 106, 255) solid 2px;
     margin-top: 2rem;
     background-color: rgb(17, 17, 17) !important;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
   }
   .char-Robins {
     // margin-top: 3rem;
@@ -93,6 +94,7 @@
       width: 40rem;
       box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
       padding: 10px;
+      
       img {
         height: 25rem;
         width: 80%;
