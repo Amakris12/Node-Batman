@@ -1063,13 +1063,13 @@ nav header i {
   min-width: 150px;
 }
 
-.nav-menu li {
+.nav-menu a {
   padding: 0.7em 1em;
   cursor: pointer;
   font-weight: normal;
 }
 
-.nav-menu li:hover {
+.nav-menu a:hover {
   background-color: rgb(67, 20, 255);
   transition: background-color 0.4s;
 }
@@ -1113,19 +1113,19 @@ nav header i {
   margin-top: 1rem;
 }
 
-.side-navbar li {
+.side-navbar a {
   font-weight: normal;
   font-size: 1.5rem;
   line-height: 2rem;
   /*text-align: center;*/
 }
 
-.side-navbar li:hover {
+.side-navbar a:hover {
   background-color: #333;
   cursor: pointer;
 }
 
-.side-navbar li a {
+.side-navbar a {
   color: inherit;
   text-decoration: none;
   display: block;
