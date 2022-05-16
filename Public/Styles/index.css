@@ -703,10 +703,11 @@ textarea {
   margin-right: auto;
   margin-top: 1rem;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
 }
 .Characters .char-Bats .char-bats-img {
-  width: 50%;
+  width: 40rem;
 }
 .Characters .char-Bats .char-bats-img img {
   width: 80%;
@@ -718,7 +719,7 @@ textarea {
   display: block;
 }
 .Characters .char-Bats .char-bats-text {
-  width: 50%;
+  width: 40rem;
 }
 .Characters .char-Bats .char-bats-text .links {
   width: 90%;
@@ -727,6 +728,7 @@ textarea {
   margin-top: 2rem;
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 .Characters .char-Bats .char-bats-text .links img {
   height: 8rem;
@@ -1070,7 +1072,7 @@ nav header i {
 }
 
 .nav-menu a:hover {
-  background-color: rgb(67, 20, 255);
+  background-color: rgb(62, 16, 243);
   transition: background-color 0.4s;
 }
 
@@ -1121,7 +1123,7 @@ nav header i {
 }
 
 .side-navbar a:hover {
-  background-color: #333;
+  background-color: rgb(12, 0, 106);
   cursor: pointer;
 }
 
